@@ -4,20 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/main.css">
+    <title>Pokemons</title>
 </head>
-<body class="body">
-    <header class="header">
-        <header class="header__container container">
-            
-        </header>
+<body class="body" >
+    <header class="header text-center" >
+        <div class="container">
+            <img class="pokemons-image1" src="./images/pokemon_logo.png" alt="pokemons logo image" width="300" height="100" >
+        </div>
     </header>
     
     <main class="main">
-        <div class="hero hero__container">
-            
-        </div>
+        <section class="container">
+            <div class="row main__wrapper">
+                <div class="col-8 main__box">
+                    <div class="p-5" >
+                        <ul class="row" id="pokemon_list">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     
     <footer class="footer">
@@ -26,66 +34,9 @@
         </div>
     </footer>
     
-    <script>
-        
-    </script>
-    
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/pakemon.js"> </script>
+    <script src="./js/main.js"></script>
 
 </body>
 </html>
-
-<!-- <picture>
-    <source
-    type="image/webp"
-    media="(max-width: 425px)" 
-    srcset=
-        "./images/coffee-mobile.webp 1x,
-         ./images/coffee-mobile@2x.webp 2x
-        "
-    >
-    
-    <source
-    type="image/webp"
-    media="(max-width: 768px)" 
-    srcset=
-        "./images/coffee-tablet.webp 1x,
-         ./images/coffee-tablet@2x.webp 2x
-        "
-    >
-
-    <source
-    type="image/webp" 
-    srcset=
-        "./images/coffee.webp 1x,
-         ./images/coffee@2x.webp 2x
-        "
-    >
-
-
-
-    <source
-    type="image/webp"
-    media="(max-width: 425px)" 
-    srcset=
-        "./images/coffee-mobile.jpg 1x,
-         ./images/coffee-mobile@2x.jpg 2x
-        "
-    >
-    
-    <source
-    media="(max-width: 768px)" 
-    srcset=
-        "./images/coffee-tablet.jpg 1x,
-         ./images/coffee-tablet@2x.jpg 2x
-        "
-    >
-
-    <img 
-    src=""
-    srcset="./image/coffee@2x.jpg 1x, ./image/coffee@2x.jpg" 
-    alt=""
-    width=""
-    height=""
-    >
-</picture> -->
-
